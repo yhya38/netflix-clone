@@ -8,7 +8,6 @@
     overflow-x: scroll;
     overflow-y: hidden;
     padding: 20px;
-    cursor:pointer;
 }
 .row_posters::-webkit-scrollbar{
     display: none;
@@ -19,6 +18,8 @@
     max-height: 100px;
     margin-right: 10px;
     transition: transform 450ms;
+    cursor:pointer;
+
 }
 .row_poster:hover {
     transform: scale(1.08);
